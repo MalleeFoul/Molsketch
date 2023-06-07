@@ -22,6 +22,7 @@
 #include <QDebug>
 #include <QPainter>
 #include <algorithm>
+#include "numeric"
 
 namespace Molsketch {
 
