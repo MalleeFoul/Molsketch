@@ -34,7 +34,7 @@ namespace Molsketch {
       : center(center) {}
     ~PaintableAggregatePrivate() {
       auto beforeAndAfterItems = before + after;
-      for (auto paintable : qAsConst(beforeAndAfterItems)) delete paintable;
+      for (auto paintable : std::as_const(beforeAndAfterItems)) delete paintable;
     }
   };
 
@@ -76,7 +76,7 @@ namespace Molsketch {
     d->center->paint(painter);
     painter->translate(afterItemPostShift(d->center.data()));
 
-    for (auto paintable : qAsConst(d->after)) {
+    for (auto paintable : std::as_const(d->after)) {
       painter->translate(afterItemPreShift(paintable));
       paintable->paint(painter);
       painter->translate(afterItemPostShift(paintable));
@@ -86,7 +86,7 @@ namespace Molsketch {
     painter->save();
     painter->translate(initialShift);
     painter->translate(beforeItemPostShift(d->center.data()));
-    for (auto paintable : qAsConst(d->before)) {
+    for (auto paintable : std::as_const(d->before)) {
       painter->translate(beforeItemPreShift(paintable));
       paintable->paint(painter);
       painter->translate(beforeItemPostShift(paintable));

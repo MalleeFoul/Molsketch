@@ -27,15 +27,18 @@ namespace Molsketch {
   struct RadicalElectronPrivate {
     qreal diameter;
     QColor color;
+    bool inheritColor;
     BoundingBoxLinker linker;
     bool operator==(const RadicalElectronPrivate& other) {
       return diameter == other.diameter
           && color == other.color
-          && linker == other.linker;
+          && linker == other.linker
+          && inheritColor == other.inheritColor;
     }
 
     QColor getColor(const QGraphicsItem *parentItem) const {
-      if (color.isValid() || !parentItem) return color;
+      // TODO have flag to decide if color should be inherited or not
+//      if (color.isValid() || !parentItem) return color;
       auto graphicsItemParent = dynamic_cast<const graphicsItem *>(parentItem);
       if (!graphicsItemParent) return color;
       return graphicsItemParent->getColor();
