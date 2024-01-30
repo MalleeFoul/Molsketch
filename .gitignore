@@ -25,3 +25,4 @@ GPATH
 *.7z
 *.sha1
 Updates.xml
+.DS_Store

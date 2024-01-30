@@ -15,10 +15,8 @@
    sodipodi:version="0.32"
    inkscape:version="0.45.1"
    version="1.0"
-   sodipodi:docbase="/home/david/Oxygen/trunk/scalable/actions"
    sodipodi:docname="edit-cut.svgz"
    inkscape:output_extension="org.inkscape.output.svgz.inkscape"
-   inkscape:export-filename="edit-cut.png"
    inkscape:export-xdpi="22.5"
    inkscape:export-ydpi="22.5">
   <defs
@@ -790,17 +788,13 @@
          x="160"
          id="image4278"
          height="128"
-         width="128"
-         sodipodi:absref="/home/david/Oxygen/trunk/32x32/actions/edit-copy.png"
-         xlink:href="/home/david/Oxygen/trunk/32x32/actions/edit-copy.png" />
+         width="128"/>
       <image
          y="0"
          x="288"
          id="image4288"
          height="128"
-         width="128"
-         sodipodi:absref="/home/david/Oxygen/trunk/32x32/actions/edit-paste.png"
-         xlink:href="/home/david/Oxygen/trunk/32x32/actions/edit-paste.png" />
+         width="128"/>
       <path
          style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;opacity:0.70792079;filter:url(#filter4715)"
          d="M 57.53125 79.25 L 39.71875 110.0625 C 37.370936 114.12633 34.175817 117.22417 30.71875 118.96875 C 27.26168 120.71333 23.37011 121.11751 20.1875 119.28125 C 17.00494 117.44502 15.40875 113.86699 15.1875 110 C 15.119229 108.80676 15.194921 107.57094 15.375 106.3125 C 14.812237 108.42607 14.574653 110.52767 14.6875 112.5 C 14.90875 116.36699 16.50494 119.94502 19.6875 121.78125 C 22.87011 123.61751 26.76168 123.21333 30.21875 121.46875 C 33.675817 119.72417 36.870936 116.62633 39.21875 112.5625 L 57.40625 81.09375 C 57.67315 80.641816 57.75171 80.103085 57.625 79.59375 L 57.53125 79.25 z M 31.40625 96.53125 C 29.496167 96.399901 26.05012 98.38292 23.90625 102.09375 C 22.840787 103.93797 22.266248 105.85407 22.125 107.5 C 22.422918 106.54782 22.850187 105.55624 23.40625 104.59375 C 25.55012 100.88292 28.996167 98.899901 30.90625 99.03125 C 31.322899 99.0599 31.689226 99.159631 32.0625 99.375 C 32.970397 99.898826 33.607273 101.04898 33.6875 102.90625 C 33.703141 103.26833 33.690955 103.66277 33.65625 104.0625 C 34.065399 102.74599 34.233925 101.48097 34.1875 100.40625 C 34.107273 98.54898 33.470397 97.398826 32.5625 96.875 C 32.189226 96.659631 31.822899 96.5599 31.40625 96.53125 z "
